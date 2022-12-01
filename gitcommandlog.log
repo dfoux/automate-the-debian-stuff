@@ -27,3 +27,25 @@
    27  #name master branch as origin . branch = path to the graph
    28  ls
    29  history > gitcommandlog.log
+   30  git push --set-upstream origin master
+   31  ls
+   32  git status
+   33  git add .
+   34  git commit
+   35  git commit -m "updated log"
+   36  git log
+   37  git push
+   38  ls
+   39  cd ..
+   40  ls
+   41  mkdir docs
+   42  mkdir keys
+   43  nano keys/gitkeywebsite.key
+   44  git push
+   45  cd automate-the-debian-stuff/
+   46  ls
+   47  git log
+   48  #local harddrive = head is at master, github repo = origin/master
+   49  ls
+   50  git log > log.git
+   51  history > gitcommandlog.log
