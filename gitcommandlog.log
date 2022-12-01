@@ -1,0 +1,82 @@
+    1  git --version
+    2  sudo apt update && sudo apt upgrade -y
+    3  sudo apt-get install git
+    4  git clone https://github.com/dfoux/automate_the_debian_stuff
+    5  cd automate_the_debian_stuff/
+    6  bash bashone.sh 
+    7  sudo apt-get install linux-headers-$(uname -r) -y
+    8  ls
+    9  ./VBoxLinuxAdditions.run
+   10  sudo ./VBoxLinuxAdditions.run
+   11  reboot
+   12  mkdir new-repo
+   13  ls
+   14  ls automate-the-debian-stuff/
+   15  ls automate-the-debian-stuff/automate-the-debian-stuff/
+   16  cd automate-the-debian-stuff/automate-the-debian-stuff/
+   17  clear
+   18  git init
+   19  ls
+   20  git add .
+   21  git status
+   22  ls -la
+   23  rm -rf .git .idea
+   24  ls
+   25  ls -la
+   26  git init
+   27  ls
+   28  cp * ../..
+   29  ls
+   30  ls ../..
+   31  cd ..
+   32  rm -rf automate-the-debian-stuff/automate-the-debian-stuff/
+   33  ls
+   34  mkdir automate-the-debian-stuff
+   35  rm -rf automate-the-debian-stuff/
+   36  ls
+   37  mkdir automate-the-debian-stuff
+   38  cp LICENSE README.md interfaces bashone.sh automate-the-debian-stuff/
+   39  ls
+   40  ls automate-the-debian-stuff/
+   41  rm LICENSE 
+   42  rm README.md 
+   43  rm interfaces 
+   44  rm gitauto.sh 
+   45  ls
+   46  ls -la
+   47  ls
+   48  clear
+   49  ls automate-the-debian-stuff/
+   50  cd automate-the-debian-stuff/
+   51  git init
+   52  git add .
+   53  ls
+   54  ls -la
+   55  git status
+   56  clear
+   57  git status
+   58  ls -la
+   59  ls .git
+   60  clear
+   61  ls .git
+   62  clear
+   63  git status
+   64  # git commit minus m m stands for message
+   65  git commit -m "bashone.sh"
+   66  git config --global user.email "diogo.a.d.oliveira@hotmail.com"
+   67  git config --global user.name "dfoux"
+   68  clear
+   69  # git commit minus m m stands for message
+   70  git long
+   71  git log
+   72  ls
+   73  git status
+   74  # 3 steps
+   75  #1  - create the file
+   76  #2 - add to the index (automatically)
+   77  #3 - git commit
+   78  # commit - node in the graph. commiting changes
+   79  git commit -m "bashone.sh"
+   80  git log
+   81  git status
+   82  history > gitcommandlog.log
